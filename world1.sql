@@ -1,0 +1,21 @@
+-- SELECT * FROM world.countries;
+-- SELECT name,continent FROM world.countries;
+-- SELECT * FROM world.countries
+-- WHERE continent = "North America";
+-- SELECT name , region FROM world.countries
+-- WHERE continent = "Africa";
+-- SELECT * FROM world.countries
+-- WHERE population >= 10000000;
+-- SELECT * FROM world.countries
+-- WHERE continent != "Asia";
+--  SELECT * FROM world.countries WHERE continent != "Asia"AND ...;
+--  SELECT * FROM world.countries WHERE name LIKE "United%";
+--  SELECT * FROM world.countries WHERE name LIKE "%Island%" ORDER BY life_expectancy DESC; 
+ -- SELECT * FROM world.countries  ORDER BY life_expectancy DESC LIMIT 5; 
+--   SELECT * FROM world.countries  ORDER BY life_expectancy DESC LIMIT 5 OFFSET 4; 
+--   ######################## FUNCTIONS ################################### 
+ -- SELECT * FROM world.countries  ORDER BY length(name) DESC;
+--   SELECT * FROM world.countries WHERE length(name) <5;
+--  SELECT name, continent , lenght(name) as "lenght" FROM world.countries ORDER BY lenght(name) DESC;
+
+
